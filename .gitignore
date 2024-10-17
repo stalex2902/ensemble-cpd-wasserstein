@@ -190,10 +190,7 @@ wandb/
 *.ckpt
 *events.out*
 
-results/
 saved_models/
-saved_outputs/
 saves/
 logs/
-pictures/
 nohup_out/
