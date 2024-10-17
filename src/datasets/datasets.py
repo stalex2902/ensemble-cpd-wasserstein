@@ -13,12 +13,8 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-from pims import ImageSequence
-from pytorchvideo.transforms import (
-    ShortSideScale,
-)
+from pytorchvideo.transforms import ShortSideScale
 from src.utils.fix_seeds import fix_seeds
-from torch.distributions.multivariate_normal import MultivariateNormal
 from torch.utils.data import Dataset, Subset
 from torchvision.datasets.video_utils import VideoClips
 from torchvision.transforms import Compose, Lambda

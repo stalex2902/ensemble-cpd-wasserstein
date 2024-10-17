@@ -3,7 +3,6 @@
 from typing import List
 
 import pytorch_lightning as pl
-import ruptures as rpt
 from src.baselines import ts2vec_sn, tscp
 from src.models import core_models, cpd_models
 from torch.utils.data import Dataset

@@ -5,16 +5,12 @@ from typing import List, Optional, Tuple
 
 import numpy as np
 import pytorch_lightning as pl
-from src.datasets.datasets import AllModelsOutputDataset, OutputDataset
-from src.ensembles.ensembles import (
-    CusumEnsembleCPDModel,
-    DistanceEnsembleCPDModel,
-)
+from src.datasets.datasets import AllModelsOutputDataset
+from src.ensembles.ensembles import DistanceEnsembleCPDModel
 from src.metrics.metrics_utils import (
     F1_score,
     area_under_graph,
     collect_model_predictions_on_set,
-    estimate_threshold_range,
     evaluate_metrics_on_set,
     write_metrics_to_file,
 )

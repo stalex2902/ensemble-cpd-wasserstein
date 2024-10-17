@@ -1,14 +1,12 @@
 import gc
 import pickle
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import List, Tuple
 
 import numpy as np
 import torch
 import torch.nn as nn
-from scipy.stats import ttest_ind
 from src.baselines import prediction_utils
-from src.models.cpd_models import ClassicBaseline
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 

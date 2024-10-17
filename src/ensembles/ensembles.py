@@ -1,6 +1,5 @@
 import os
 from abc import ABC
-from typing import Optional, Tuple, Union
 
 import pytorch_lightning as pl
 import torch

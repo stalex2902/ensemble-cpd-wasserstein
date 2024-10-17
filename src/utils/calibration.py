@@ -12,9 +12,6 @@ from src.metrics.metrics_utils import (
     collect_model_predictions_on_set,
     get_models_predictions,
 )
-from torch import nn, optim
-from torch.nn import functional as F
-from tqdm import tqdm
 
 
 def ece(y_test, preds, strategy="uniform"):

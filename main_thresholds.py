@@ -3,9 +3,7 @@
 import argparse
 import warnings
 
-from scripts.evaluate_distance_thresholds_range import (
-    evaluate_distance_thresholds_range_all_ensembles,
-)
+from scripts.evaluate_distance_thresholds_range import evaluate_distance_thresholds_range_all_ensembles
 
 warnings.filterwarnings("ignore")
 
@@ -106,7 +104,7 @@ def main(args) -> None:
         n_models=n_models,
         calibrate=calibrate,
         distance=distance,
-        threshold_number_list,
+        threshold_number_list=threshold_number_list,
         seed=seed,
         verbose=verbose,
         save_df=save_df,

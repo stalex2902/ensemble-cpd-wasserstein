@@ -6,6 +6,8 @@ import numpy as np
 import torch
 import yaml
 from pytorch_lightning.loggers import TensorBoardLogger
+from pytorch_lightning.callbacks.early_stopping import EarlyStopping
+from pytorch_lightning import Trainer 
 from src.datasets.datasets import CPDDatasets
 from src.metrics.evaluation_pipelines import evaluation_pipeline
 from src.metrics.metrics_utils import write_metrics_to_file
