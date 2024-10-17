@@ -1,2 +1,3 @@
-# uncertainty-aware-cpd
-Developing uncertainty-aware CPD procedures for high-dimensional data
+# Beyond Averaging: A Window Wasserstein-based Aggregation for Ensemble Change Point Detection
+
+Clean code and README is upcoming!
